@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: peru;
+}
+
+@keyframes clockShow {
+    from {
+        color: rgba(0, 0, 0, 0.50);
+    }
+    to {
+        color: black;
+    }
+}
+
+.js-clockTitle,
+.js-nameForm,
+.js-nameGreeting {
+    color: black;
+    text-align: center;
+    animation: 0.8s clockShow ease-in-out;
+}
+
+.nameForm, 
+.nameGreeting {
+    display: none;
+}
+
+.nameShowing {
+    display: block;
+}
