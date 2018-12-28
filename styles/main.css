@@ -16,7 +16,9 @@ body {
 
 .js-clockTitle,
 .js-nameForm,
-.js-nameGreeting {
+.js-nameGreeting,
+.js-toDoForm,
+.div-toDoList {
     color: black;
     text-align: center;
     animation: 0.8s clockShow ease-in-out;
