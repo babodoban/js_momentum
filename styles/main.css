@@ -16,7 +16,8 @@ body {
 
 .js-clock,
 .js-name,
-.js-toDoForm {
+.js-toDoForm,
+.js-weather {
     color: white;
     text-align: center;
     width: 50%;
